@@ -1,0 +1,44 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:markdown_render">
+
+        <SolidColorBrush x:Key="GridHeaderColor" Color="#EAE8E8"/>
+        <SolidColorBrush x:Key="BorderGreyColor" Color="#7A7A7A"/>
+        <SolidColorBrush x:Key="BorderGreyDisabledColor" Color="#E0E0E0"/>
+        <SolidColorBrush x:Key="TextDisabledColor" Color="#8D8D8D" />
+        <SolidColorBrush x:Key="BorderBlueColor" Color="#8587C5 " />
+        <SolidColorBrush x:Key="CheckboxCheckedColor" Color="#FDD70A" />
+        <SolidColorBrush x:Key="SettingsButtonColor" Color="#979797" />
+        <SolidColorBrush x:Key="SettingsButtonHoverColor" Color="#C2C3CA" />
+        <SolidColorBrush x:Key="ErrorTextColor" Color="#FF364F" />
+        <SolidColorBrush x:Key="DisabledSolidButtonColor" Color="#E1E1E1" />
+        <SolidColorBrush x:Key="ControlTextColor" Color="#434343" />
+        <SolidColorBrush x:Key="ButtonYellowHoverColor" Color="#F2BD0F" />
+        <SolidColorBrush x:Key="CalendarControlButtonsColor" Color="#85868C"/>
+        <SolidColorBrush x:Key="ContextMenuMenuItemBackground" Color="Transparent"/>
+        <SolidColorBrush x:Key="ContextMenuSubmenuItemBackground" Color="Transparent"/>
+        <SolidColorBrush x:Key="ContextMenuMenuDisabledForeground" Color="#A2A4A5"/>
+        <SolidColorBrush x:Key="WindowBackColor" Color="#1D1E40"/>
+        <SolidColorBrush x:Key="WhiteControlColor" Color="#FFFFFF" />
+        <SolidColorBrush x:Key="GreyBorder" Color="#CBCBCB"/>
+        <SolidColorBrush x:Key="GreyBorderMouseOver" Color="#868686" />
+        <SolidColorBrush x:Key="GreyBorderMousePressed" Color="#A5A5A5" />
+        <SolidColorBrush x:Key="DisabledForegroundBrush" Color="#888" />
+        <SolidColorBrush x:Key="WhiteText" Color="#F1F1F1" />
+        <SolidColorBrush x:Key="GreyText" Color="#818181" />
+        <SolidColorBrush x:Key="DartText" Color="#233539" />
+        <SolidColorBrush x:Key="GlyphBrush" Color="#CBCBCB" />
+        <SolidColorBrush x:Key="CheckBoxNotCheckedBorderColor" Color="#85868C" />
+        <LinearGradientBrush x:Key="PressedBrush" StartPoint="0,0" EndPoint="0,1">
+            <GradientBrush.GradientStops>
+                <GradientStopCollection>
+                    <GradientStop Color="#BBB" Offset="0.0"/>
+                    <GradientStop Color="#EEE" Offset="0.1"/>
+                    <GradientStop Color="#EEE" Offset="0.9"/>
+                    <GradientStop Color="#FFF" Offset="1.0"/>
+                </GradientStopCollection>
+            </GradientBrush.GradientStops>
+        </LinearGradientBrush>
+    <SolidColorBrush x:Key="DisabledColor" Color="#F4F4F4" />
+
+</ResourceDictionary>
